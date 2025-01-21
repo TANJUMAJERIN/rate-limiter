@@ -1,0 +1,13 @@
+# Normalize all text files to use LF in the repository and CRLF in the working directory
+* text=auto
+
+# Force specific line endings for certain files
+*.sh text eol=lf
+*.bat text eol=crlf
+
+# Prevent binary files from being modified
+*.png binary
+*.jpg binary
+*.gif binary
+*.zip binary
+*.exe binary
